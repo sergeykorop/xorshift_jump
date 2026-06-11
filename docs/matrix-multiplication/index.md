@@ -15,7 +15,7 @@ Originally published: [CodeProject](https://web.archive.org/web/20250819132602/h
 ## Introduction
 
 This article is a sequel to
-[`System.Random` and Infinite Monkey Theorem](/monkey_typewriter/),
+[`System.Random` and Infinite Monkey Theorem](/monkey-typewriter/),
 where we explored the internal structure of the standard random number
 generator (RNG) from the .NET Framework. Using the theory of linear
 RNGs, we learned how to navigate the sequence of random numbers
@@ -78,7 +78,7 @@ which brought my previous article to life.
 
 It is assumed that the reader is familiar with linear RNG theory
 basics explained in
-[`System.Random` and Infinite Monkey Theorem](/monkey_typewriter/).
+[`System.Random` and Infinite Monkey Theorem](/monkey-typewriter/).
 Unlike that article, the demo code for this one is written in C++ 11
 so the reader should be fluent in this dialect at the intermediate
 level.
@@ -728,7 +728,7 @@ be able to build C++ code without installing Haskell.
 
 Jumping $k$ steps forward from RNG state $S$ if you know transition
 matrix $T$ is as easy as calculating $T^kS$. (See my [previous
-article](/monkey_typewriter/) for details.) So, we need implementing
+article](/monkey-typewriter/) for details.) So, we need implementing
 these arithmetical primitives first. Let's define transition matrix
 representation in _xs.h_ as:
 

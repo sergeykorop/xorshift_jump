@@ -31,7 +31,7 @@ _This section is exactly reproduced from the part 1 for the readers' convenience
 
 It is assumed that the reader is familiar with linear RNG theory
 basics explained in
-[`System.Random` and Infinite Monkey Theorem](/monkey_typewriter/).
+[`System.Random` and Infinite Monkey Theorem](/monkey-typewriter/).
 Unlike that article, the demo code for this one is written in C++ 11
 so the reader should be fluent in this dialect at the intermediate
 level.
